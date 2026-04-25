@@ -1,0 +1,32 @@
+# Analyse des Ventes
+
+## Titre & Description
+
+Ce projet est un outil d'analyse automatisé écrit en Python. Il permet de traiter des données de ventes brutes à partir d'un fichier CSV, d'effectuer des calculs financiers (CA Brut, Remises, TVA, CA Net) et de générer un rapport visuel sous forme de graphique pour faciliter la prise de décision.
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre machine :
+
+- _Python 3.x_ : [Télécharger ici](https://www.python.org/downloads/)
+- _Gestionnaire de paquets pip_ (généralement inclus avec l'installation de Python)
+
+## Fonctionnalités
+
+- _Génération de données_ : Création automatique d'un fichier ventes.csv.
+- _Traitement de données_ : Manipulation avec la bibliothèque pandas.
+- _Statistiques clés_ : Calcul automatique du CA total et du meilleur produit.
+- _Visualisation_ : Création d'un graphique avec matplotlib.
+- _Export_ : Sauvegarde des résultats au format CSV et Image.
+
+## auteurs
+
+- Roua Sai _ et _ Eya Ouertatani \*
+
+## Installation
+
+Pour faire tourner le projet, vous devez avoir Python installé ainsi que les bibliothèques suivantes :
+
+```bash
+pip install pandas matplotlib
+```
