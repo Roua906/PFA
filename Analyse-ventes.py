@@ -3,12 +3,10 @@ import matplotlib.pyplot as plt
 
 # Étape 1 : Création du fichier CSV (simulée ici)
 # Vous pouvez aussi créer manuellement le fichier
-data = {
-    'ID': [101, 102, 103, 104, 105],
-    'Prix': [15.0, 25.0, 10.0, 30.0, 20.0],
-    'Quantité': [3, 2, 5, 1, 4],
-    'Remise': [10, 5, 0, 15, 8]
-}
+data = {'ID': [101, 102, 103, 104, 105],
+        'Prix': [15.0, 25.0, 10.0, 30.0, 20.0],
+        'Quantité': [3, 2, 5, 1, 4],
+        'Remise': [10, 5, 0, 15, 8]}
 df = pd.DataFrame(data)
 
 # Sauvegarde en CSV
