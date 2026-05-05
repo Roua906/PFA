@@ -1,8 +1,11 @@
+notepad .gitignore
 .venv/
 __pycache__/
 *.pyc
 .env
-
-
-
- 
+ventes.csv
+resultats_final.csv
+graphe.png
+graphique_ca.png
+*.csv
+*.png
